@@ -67,12 +67,12 @@ $results = $stmt->get_result();
             <?php while ($a = $results->fetch_assoc()): ?>
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="/HOMESPECTOR/backend/panel/<?= htmlspecialchars($a['thumbnail']) ?>" class="card-img-top"
+                    <img src="/backend/panel/<?= htmlspecialchars($a['thumbnail']) ?>" class="card-img-top"
                         alt="Thumbnail">
                     <div class="card-body">
                         <h5 class="card-title"><?= htmlspecialchars($a['title']) ?></h5>
                         <p class="card-text"><?= htmlspecialchars($a['short_description']) ?></p>
-                        <a href="/HOMESPECTOR/Homepage/articles_view11.php?id=<?= $a['id'] ?>"
+                        <a href="/Homepage/articles_view11.php?id=<?= $a['id'] ?>"
                             class="btn btn-primary w-100">อ่านเพิ่มเติม</a>
                     </div>
                 </div>

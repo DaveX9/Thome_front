@@ -21,7 +21,7 @@ $content = $stmt->fetchColumn();
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="/HOMESPECTOR/CSS/ourstory.css">
+    <link rel="stylesheet" href="/CSS/ourstory.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
     <title>Header Design</title>
 </head>
@@ -35,22 +35,22 @@ $content = $stmt->fetchColumn();
                         <!-- Social Icons -->
                         <div class="social-icons">
                             <a href="https://www.facebook.com/t.homeinspector/?locale=th_TH">
-                                <img src="/HOMESPECTOR/icon/ICON/Fb.png" alt="Facebook">
+                                <img src="/icon/ICON/Fb.png" alt="Facebook">
                             </a>
                             <a href="https://www.instagram.com/t.homeinspector/">
-                                <img src="/HOMESPECTOR/icon/ICON/IG.png" alt="Instagram">
+                                <img src="/icon/ICON/IG.png" alt="Instagram">
                             </a>
                             <a href="https://page.line.me/t.home?openQrModal=true">
-                                <img src="/HOMESPECTOR/icon/ICON/line.png" alt="Line">
+                                <img src="/icon/ICON/line.png" alt="Line">
                             </a>
                             <a href="tel:082-045-6165">
-                                <img src="/HOMESPECTOR/icon/ICON/phone.png" alt="Phone">
+                                <img src="/icon/ICON/phone.png" alt="Phone">
                             </a>
                         </div>
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="/HOMESPECTOR/Homepage/index.html">
-                                <img src="/HOMESPECTOR/img/s1.png" alt="T. Home Inspector Logo">
+                            <a href="/Homepage/index.html">
+                                <img src="/img/s1.png" alt="T. Home Inspector Logo">
                             </a>
                         </div>
 
@@ -58,10 +58,10 @@ $content = $stmt->fetchColumn();
                             <!-- Language Switcher -->
                             <div class="language-switcher">
                                 <a href="?lang=th" class="lang-link">
-                                    <img src="/HOMESPECTOR/icon/ICON/thai.png" alt="Thai" title="ภาษาไทย">
+                                    <img src="/icon/ICON/thai.png" alt="Thai" title="ภาษาไทย">
                                 </a>
                                 <a href="?lang=en" class="lang-link">
-                                    <img src="/HOMESPECTOR/icon/ICON/eng.png" alt="English" title="English">
+                                    <img src="/icon/ICON/eng.png" alt="English" title="English">
                                 </a>
                             </div>
 
@@ -77,12 +77,12 @@ $content = $stmt->fetchColumn();
                 </header>
                 <nav class="nav-links" id="nav-links">
                     <ul>
-                        <li><a href="/HOMESPECTOR/Homepage/index.html" data-translate="nav.home">หน้าหลัก</a>
+                        <li><a href="/Homepage/index.html" data-translate="nav.home">หน้าหลัก</a>
                         </li>
-                        <li><a href="/HOMESPECTOR/Homepage/service.php" data-translate="nav.services">บริการ</a></li>
-                        <li><a href="/HOMESPECTOR/Homepage/promotion.php" data-translate="nav.promotion">สิทธิพิเศษ</a>
+                        <li><a href="/Homepage/service.php" data-translate="nav.services">บริการ</a></li>
+                        <li><a href="/Homepage/promotion.php" data-translate="nav.promotion">สิทธิพิเศษ</a>
                         </li>
-                        <li><a href="/HOMESPECTOR/Homepage/projects_media.html" data-translate="nav.projects">ผลงาน</a>
+                        <li><a href="/Homepage/projects_media.html" data-translate="nav.projects">ผลงาน</a>
                         </li>
 
                         <!-- Dropdown Menu -->
@@ -91,10 +91,10 @@ $content = $stmt->fetchColumn();
                                 เกี่ยวกับเรา <span class="dropdown-icon"><i class="fa-solid fa-caret-down"></i></span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="/HOMESPECTOR/Homepage/ourstory.php"
+                                <li><a href="/Homepage/ourstory.php"
                                         data-translate="nav.ourStory">ประวัติของเรา</a>
                                 </li>
-                                <li><a href="/HOMESPECTOR/Homepage/ourteam.php"
+                                <li><a href="/Homepage/ourteam.php"
                                         data-translate="nav.ourTeam">ทีมงานของเรา</a></li>
                             </ul>
                         </li>
@@ -103,7 +103,7 @@ $content = $stmt->fetchColumn();
                                 บริการเสริม <span class="dropdown-icon"><i class="fa-solid fa-caret-down"></i></span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="/HOMESPECTOR/Homepage/app-inspector.php"
+                                <li><a href="/Homepage/app-inspector.php"
                                         data-translate="nav.app-inspector">ตรวจบ้านเอง</a>
                                 </li>
                                 <li><a href="cal-electric.html" data-translate="nav.cal-electric">คำนวณไฟฟ้า</a>
@@ -112,14 +112,14 @@ $content = $stmt->fetchColumn();
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="/HOMESPECTOR/Homepage/articles.html" data-translate="nav.articles">บทความ</a></li>
-                        <li><a href="/HOMESPECTOR/Homepage/Review-home.html"
+                        <li><a href="/Homepage/articles.html" data-translate="nav.articles">บทความ</a></li>
+                        <li><a href="/Homepage/Review-home.html"
                                 data-translate="nav.reviewHome">รีวิวบ้าน</a></li>
-                        <li><a href="/HOMESPECTOR/Homepage/review_interior.php"
+                        <li><a href="/Homepage/review_interior.php"
                                 data-translate="nav.reviewInterior">บริการตกแต่งภายใน</a></li>
-                        <li><a href="/HOMESPECTOR/Homepage/joinwithus.php" data-translate="nav.joinUs">รวมงานกับเรา</a>
+                        <li><a href="/Homepage/joinwithus.php" data-translate="nav.joinUs">รวมงานกับเรา</a>
                         </li>
-                        <li><a href="/HOMESPECTOR/Homepage/Contactus.php" data-translate="nav.contact">ติดต่อเรา</a>
+                        <li><a href="/Homepage/Contactus.php" data-translate="nav.contact">ติดต่อเรา</a>
                         </li>
                     </ul>
                 </nav>
@@ -132,23 +132,23 @@ $content = $stmt->fetchColumn();
                             <!-- Social Icons -->
                             <div class="social-icons">
                                 <a href="https://www.facebook.com/t.homeinspector/?locale=th_TH">
-                                    <img src="/HOMESPECTOR/icon/ICON/Fb.png" alt="Facebook">
+                                    <img src="/icon/ICON/Fb.png" alt="Facebook">
                                 </a>
                                 <a href="https://www.instagram.com/t.homeinspector/">
-                                    <img src="/HOMESPECTOR/icon/ICON/IG.png" alt="Instagram">
+                                    <img src="/icon/ICON/IG.png" alt="Instagram">
                                 </a>
                                 <a href="https://page.line.me/t.home?openQrModal=true">
-                                    <img src="/HOMESPECTOR/icon/ICON/line.png" alt="Line">
+                                    <img src="/icon/ICON/line.png" alt="Line">
                                 </a>
                                 <a href="tel:082-045-6165">
-                                    <img src="/HOMESPECTOR/icon/ICON/phone.png" alt="Phone">
+                                    <img src="/icon/ICON/phone.png" alt="Phone">
                                 </a>
                             </div>
 
                             <!-- Logo -->
                             <div class="logo">
-                                <a href="/HOMESPECTOR/Homepage/index.html">
-                                    <img src="/HOMESPECTOR/img/s1.png" alt="T. Home Inspector Logo">
+                                <a href="/Homepage/index.html">
+                                    <img src="/img/s1.png" alt="T. Home Inspector Logo">
                                 </a>
                             </div>
 
@@ -157,10 +157,10 @@ $content = $stmt->fetchColumn();
                                 <!-- Language Switcher -->
                                 <div class="language-switcher">
                                     <a href="?lang=th" class="lang-link">
-                                        <img src="/HOMESPECTOR/icon/ICON/thai.png" alt="Thai" title="ภาษาไทย">
+                                        <img src="/icon/ICON/thai.png" alt="Thai" title="ภาษาไทย">
                                     </a>
                                     <a href="?lang=en" class="lang-link">
-                                        <img src="/HOMESPECTOR/icon/ICON/eng.png" alt="English" title="English">
+                                        <img src="/icon/ICON/eng.png" alt="English" title="English">
                                     </a>
                                 </div>
                             </div>
@@ -172,13 +172,13 @@ $content = $stmt->fetchColumn();
                         <div class="menu-section">
                             <h3>Navigation</h3>
                             <ul>
-                                <li><a href="/HOMESPECTOR/Homepage/index.html" data-translate="nav.home">หน้าหลัก</a>
+                                <li><a href="/Homepage/index.html" data-translate="nav.home">หน้าหลัก</a>
                                 </li>
-                                <li><a href="/HOMESPECTOR/Homepage/service.php"
+                                <li><a href="/Homepage/service.php"
                                         data-translate="nav.services">บริการ</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/promotion.php"
+                                <li><a href="/Homepage/promotion.php"
                                         data-translate="nav.promotion">สิทธิพิเศษ</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/projects_media.html"
+                                <li><a href="/Homepage/projects_media.html"
                                         data-translate="nav.projects">ผลงาน</a></li>
 
                                 <!-- Dropdown Menu -->
@@ -188,10 +188,10 @@ $content = $stmt->fetchColumn();
                                                 class="fa-solid fa-caret-down"></i></span>
                                     </a>
                                     <ul class="dropdown-menu1">
-                                        <li><a href="/HOMESPECTOR/Homepage/ourstory.php"
+                                        <li><a href="/Homepage/ourstory.php"
                                                 data-translate="nav.ourStory">ประวัติของเรา</a>
                                         </li>
-                                        <li><a href="/HOMESPECTOR/Homepage/ourteam.php"
+                                        <li><a href="/Homepage/ourteam.php"
                                                 data-translate="nav.ourTeam">ทีมงานของเรา</a></li>
                                     </ul>
                                 </li>
@@ -201,7 +201,7 @@ $content = $stmt->fetchColumn();
                                                 class="fa-solid fa-caret-down"></i></span>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/HOMESPECTOR/Homepage/app-inspector.php"
+                                        <li><a href="/Homepage/app-inspector.php"
                                                 data-translate="nav.app-inspector">ตรวจบ้านเอง</a>
                                         </li>
                                         <li><a href="cal-electric.html" data-translate="nav.cal-electric">คำนวณไฟฟ้า</a>
@@ -210,15 +210,15 @@ $content = $stmt->fetchColumn();
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="/HOMESPECTOR/Homepage/articles.html"
+                                <li><a href="/Homepage/articles.html"
                                         data-translate="nav.articles">บทความ</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/Review-home.html"
+                                <li><a href="/Homepage/Review-home.html"
                                         data-translate="nav.reviewHome">รีวิวบ้าน</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/review_interior.php"
+                                <li><a href="/Homepage/review_interior.php"
                                         data-translate="nav.reviewInterior">บริการตกแต่งภายใน</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/joinwithus.php"
+                                <li><a href="/Homepage/joinwithus.php"
                                         data-translate="nav.joinUs">รวมงานกับเรา</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/Contactus.php"
+                                <li><a href="/Homepage/Contactus.php"
                                         data-translate="nav.contact">ติดต่อเรา</a></li>
                             </ul>
                         </div>
@@ -240,9 +240,9 @@ $content = $stmt->fetchColumn();
 
                         <!-- Other Sections -->
                         <div class="menu-section">
-                            <h3><a href="/HOMESPECTOR/Homepage/Contactus.php" class="menu-link">Contact</a></h3>
-                            <h3><a href="/HOMESPECTOR/Homepage/projects_media.html" class="menu-link">Projects</a></h3>
-                            <h3><a href="/HOMESPECTOR/Homepage/joinwithus.php" class="menu-link">joinwithus</a></h3>
+                            <h3><a href="/Homepage/Contactus.php" class="menu-link">Contact</a></h3>
+                            <h3><a href="/Homepage/projects_media.html" class="menu-link">Projects</a></h3>
+                            <h3><a href="/Homepage/joinwithus.php" class="menu-link">joinwithus</a></h3>
                         </div>
                     </div>
                 </div>
@@ -265,7 +265,7 @@ $content = $stmt->fetchColumn();
             </div>
             <script>
                 document.addEventListener("DOMContentLoaded", function () {
-                fetch('/HOMESPECTOR/backend/panel/get_line_section.php')
+                fetch('/backend/panel/get_line_section.php')
                     .then(response => response.json())
                     .then(data => {
                     // อัปเดตเบอร์โทร
@@ -289,7 +289,7 @@ $content = $stmt->fetchColumn();
             <!-- <section class="story-container">
 
                 <div class="story-header">
-                    <img src="/HOMESPECTOR/img/ourstoryimage1.png" alt="Building B" class="header-image">
+                    <img src="/img/ourstoryimage1.png" alt="Building B" class="header-image">
                     <h1 class="header-title">OUR STORY</h1>
                 </div>
 
@@ -312,17 +312,17 @@ $content = $stmt->fetchColumn();
                     </div>
                     <div class="values">
                         <div class="value" data-aos="fade-up-right">
-                            <img src="/HOMESPECTOR/icon/ICON/trusted.png" alt="Trust Icon">
+                            <img src="/icon/ICON/trusted.png" alt="Trust Icon">
                             <h3>TRUST</h3>
                             <p>การสร้างความเชื่อมั่นด้วยการตรวจสอบที่มีมาตรฐาน</p>
                         </div>
                         <div class="value" data-aos="fade-up">
-                            <img src="/HOMESPECTOR/icon/ICON/future.png" alt="Tech Icon">
+                            <img src="/icon/ICON/future.png" alt="Tech Icon">
                             <h3>TECH</h3>
                             <p>บริการตรวจสอบคุณภาพบ้านโดยใช้เทคโนโลยีใหม่</p>
                         </div>
                         <div class="value" data-aos="fade-up-left">
-                            <img src="/HOMESPECTOR/icon/ICON/group.png" alt="Team Icon">
+                            <img src="/icon/ICON/group.png" alt="Team Icon">
                             <h3>TEAM</h3>
                             <p>ทีมงานคุณภาพพร้อมให้บริการลูกค้า</p>
                         </div>
@@ -333,13 +333,13 @@ $content = $stmt->fetchColumn();
                     <h2>Our Founders</h2>
                     <div class="founders-container">
                         <div class="founder" data-aos="fade-right">
-                            <img src="/HOMESPECTOR/img/staff/CEO.jpg" alt="Sumes Chetthamrongchai"
+                            <img src="/img/staff/CEO.jpg" alt="Sumes Chetthamrongchai"
                                 class="founder-photo">
                             <h3>Sumes Chetthamrongchai</h3>
                             <p>Founder & Managing Director, NACHI Certified Inspector</p>
                         </div>
                         <div class="founder" data-aos="fade-left">
-                            <img src="/HOMESPECTOR/img/staff/Co-founder.jpg" alt="Suthep Chetthamrongchai"
+                            <img src="/img/staff/Co-founder.jpg" alt="Suthep Chetthamrongchai"
                                 class="founder-photo">
                             <h3>Suthep Chetthamrongchai</h3>
                             <p>Co-Founder & Civil Engineer</p>
@@ -382,13 +382,13 @@ $content = $stmt->fetchColumn();
                         <!-- Left Section: Social Media & Branding -->
                         <div class="footer-left">
                             <!-- <h2>HomeInspector</h2> -->
-                            <img src="/HOMESPECTOR/img/footer_logo.png" alt="HomeInspector Logo" class="footer-logo">
+                            <img src="/img/footer_logo.png" alt="HomeInspector Logo" class="footer-logo">
                             <div class="social-icons">
-                                <a href="https://www.facebook.com/t.homeinspector/" target="_blank"><img src="/HOMESPECTOR/icon/ICON/Fb.png" alt="Facebook"></a>
-                                <a href="https://www.instagram.com/t.homeinspector/" target="_blank"><img src="/HOMESPECTOR/icon/ICON/IG.png" alt="Instagram"></a>
-                                <a href="https://page.line.me/t.home?openQrModal=true" target="_blank"><img src="/HOMESPECTOR/icon/ICON/line.png" alt="Line"></a>
-                                <a href="https://www.tiktok.com/@thomeinspector" target="_blank"><img src="/HOMESPECTOR/icon/ICON/Tiktok.png" alt="TikTok"></a>
-                                <a href="https://www.youtube.com/channel/UC1BPUCVPBW4-ml7MrxQWjug" target="_blank"><img src="/HOMESPECTOR/icon/ICON/YB.png" alt="YouTube"></a>
+                                <a href="https://www.facebook.com/t.homeinspector/" target="_blank"><img src="/icon/ICON/Fb.png" alt="Facebook"></a>
+                                <a href="https://www.instagram.com/t.homeinspector/" target="_blank"><img src="/icon/ICON/IG.png" alt="Instagram"></a>
+                                <a href="https://page.line.me/t.home?openQrModal=true" target="_blank"><img src="/icon/ICON/line.png" alt="Line"></a>
+                                <a href="https://www.tiktok.com/@thomeinspector" target="_blank"><img src="/icon/ICON/Tiktok.png" alt="TikTok"></a>
+                                <a href="https://www.youtube.com/channel/UC1BPUCVPBW4-ml7MrxQWjug" target="_blank"><img src="/icon/ICON/YB.png" alt="YouTube"></a>
                             </div>
                         </div>
     
@@ -396,8 +396,8 @@ $content = $stmt->fetchColumn();
                         <div class="footer-center">
                             <h2>เกี่ยวกับเรา <span class="toggle-icon">+</span></h2>
                             <ul>
-                                <li><a href="/HOMESPECTOR/Homepage/ourstory.php">ประวัติของเรา</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/ourteam.php">ทีมงานของเรา</a></li>
+                                <li><a href="/Homepage/ourstory.php">ประวัติของเรา</a></li>
+                                <li><a href="/Homepage/ourteam.php">ทีมงานของเรา</a></li>
                             </ul>
                         </div>
     
@@ -405,13 +405,13 @@ $content = $stmt->fetchColumn();
                         <div class="footer-right">
                             <h2>บริการของเรา <span class="toggle-icon">+</span></h2>
                             <ul>
-                                <li><a href="/HOMESPECTOR/Homepage/Hinspector.html">ต.ตรวจบ้าน</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/Hinterior.html">ต.ตงแต่ง</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/Hconstruction.php">ต.เติม</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/Hbulter.php">H.Bulter</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/cal-electric.html">ตรวจสอบระบบไฟฟ้า</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/app-inspector.php">ตรวจบ้านเอง</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/checklist.html">เทียบสเปกบ้าน</a></li>
+                                <li><a href="/Homepage/Hinspector.html">ต.ตรวจบ้าน</a></li>
+                                <li><a href="/Homepage/Hinterior.html">ต.ตงแต่ง</a></li>
+                                <li><a href="/Homepage/Hconstruction.php">ต.เติม</a></li>
+                                <li><a href="/Homepage/Hbulter.php">H.Bulter</a></li>
+                                <li><a href="/Homepage/cal-electric.html">ตรวจสอบระบบไฟฟ้า</a></li>
+                                <li><a href="/Homepage/app-inspector.php">ตรวจบ้านเอง</a></li>
+                                <li><a href="/Homepage/checklist.html">เทียบสเปกบ้าน</a></li>
                             </ul>
                         </div>
     
@@ -419,10 +419,10 @@ $content = $stmt->fetchColumn();
                         <div class="footer-help">
                             <h2>ช่วยเหลือ <span class="toggle-icon">+</span></h2>
                             <ul>
-                                <li><a href="/HOMESPECTOR/Homepage/index.html#faq">คำถามที่พบบ่อย (FAQ)</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/joinwithus.php">รวมงานกับเรา</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/promotion.php">โปรโมชั่น</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/Contactus.php">ติดต่อเรา</a></li>
+                                <li><a href="/Homepage/index.html#faq">คำถามที่พบบ่อย (FAQ)</a></li>
+                                <li><a href="/Homepage/joinwithus.php">รวมงานกับเรา</a></li>
+                                <li><a href="/Homepage/promotion.php">โปรโมชั่น</a></li>
+                                <li><a href="/Homepage/Contactus.php">ติดต่อเรา</a></li>
                             </ul>
                         </div>
     
@@ -430,8 +430,8 @@ $content = $stmt->fetchColumn();
                         <div class="footer-payment">
                             <h2>ชำระเงินด้วย</h2>
                             <div class="payment-logos">
-                                <img src="/HOMESPECTOR/img/visacard.png" alt="Visa">
-                                <img src="/HOMESPECTOR/img/Mastercard.webp" alt="MasterCard">
+                                <img src="/img/visacard.png" alt="Visa">
+                                <img src="/img/Mastercard.webp" alt="MasterCard">
                             </div>
                         </div>
                     </div>
@@ -445,12 +445,12 @@ $content = $stmt->fetchColumn();
     </div>
 
 
-    <script src="/HOMESPECTOR/JS/Toggle_Navbar.js"></script>
+    <script src="/JS/Toggle_Navbar.js"></script>
     <!-- <script src="/HOOMESPECTOR/JS/dropdown.js"></script> -->
-    <script src="/HOMESPECTOR/JS/carousel.js"></script>
-    <script src="/HOMESPECTOR/JS/carousel2.js"></script>
-    <script src="/HOMESPECTOR/JS/footer.js"></script>
-    <script src="/HOMESPECTOR/JS/search_ham.js"></script>
+    <script src="/JS/carousel.js"></script>
+    <script src="/JS/carousel2.js"></script>
+    <script src="/JS/footer.js"></script>
+    <script src="/JS/search_ham.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

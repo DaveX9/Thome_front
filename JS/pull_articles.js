@@ -1,5 +1,5 @@
 // document.addEventListener("DOMContentLoaded", () => {
-//     fetch('/HOMESPECTOR/Homepage/articles.html')
+//     fetch('/Homepage/articles.html')
 //         .then(response => response.text())
 //         .then(html => {
 //             const parser = new DOMParser();
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const grid = document.querySelector(".articles-grid");
 
     // ดึง static cards จาก articles.html
-    fetch("/HOMESPECTOR/Homepage/articles.html")
+    fetch("/Homepage/articles.html")
         .then(response => response.text())
         .then(html => {
             const parser = new DOMParser();
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
 
             // ดึง dynamic cards จาก API
-            fetch("/HOMESPECTOR/backend/panel/api_articles.php")
+            fetch("/backend/panel/api_articles.php")
                 .then(res => res.json())
                 .then(dynamicCards => {
                     const allArticles = [...staticCards, ...dynamicCards];
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     latestSix.forEach(article => {
                         const html = `
-                            <a href="${article.url || '/HOMESPECTOR/Homepage/articles_view11.php?id=' + article.id}" 
+                            <a href="${article.url || '/Homepage/articles_view11.php?id=' + article.id}" 
                                 class="card" data-category="${article.category}">
                                 <img src="${article.thumbnail}" alt="${article.title}">
                                 <p>${article.title}</p>

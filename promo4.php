@@ -28,10 +28,10 @@ $promo = $result->fetch_assoc();
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="icon" type="image/x-icon" href="/HOMESPECTOR/img/favicon1.png">
+    <link rel="icon" type="image/x-icon" href="/img/favicon1.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-    <link rel="stylesheet" href="/HOMESPECTOR/CSS/allpromo.css">
+    <link rel="stylesheet" href="/CSS/allpromo.css">
     <title>Header Design</title>
 </head>
 
@@ -44,22 +44,22 @@ $promo = $result->fetch_assoc();
                         <!-- Social Icons -->
                         <div class="social-icons">
                             <a href="https://www.facebook.com/t.homeinspector/?locale=th_TH">
-                                <img src="/HOMESPECTOR/icon/ICON/Fb.png" alt="Facebook">
+                                <img src="/icon/ICON/Fb.png" alt="Facebook">
                             </a>
                             <a href="https://www.instagram.com/t.homeinspector/">
-                                <img src="/HOMESPECTOR/icon/ICON/IG.png" alt="Instagram">
+                                <img src="/icon/ICON/IG.png" alt="Instagram">
                             </a>
                             <a href="https://page.line.me/t.home?openQrModal=true">
-                                <img src="/HOMESPECTOR/icon/ICON/line.png" alt="Line">
+                                <img src="/icon/ICON/line.png" alt="Line">
                             </a>
                             <a href="tel:082-045-6165">
-                                <img src="/HOMESPECTOR/icon/ICON/phone.png" alt="Phone">
+                                <img src="/icon/ICON/phone.png" alt="Phone">
                             </a>
                         </div>
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="/HOMESPECTOR/Homepage/index.html">
-                                <img src="/HOMESPECTOR/img/s1.png" alt="T. Home Inspector Logo">
+                            <a href="/Homepage/index.html">
+                                <img src="/img/s1.png" alt="T. Home Inspector Logo">
                             </a>
                         </div>
 
@@ -67,10 +67,10 @@ $promo = $result->fetch_assoc();
                             <!-- Language Switcher -->
                             <div class="language-switcher">
                                 <a href="?lang=th" class="lang-link">
-                                    <img src="/HOMESPECTOR/icon/ICON/thai.png" alt="Thai" title="ภาษาไทย">
+                                    <img src="/icon/ICON/thai.png" alt="Thai" title="ภาษาไทย">
                                 </a>
                                 <a href="?lang=en" class="lang-link">
-                                    <img src="/HOMESPECTOR/icon/ICON/eng.png" alt="English" title="English">
+                                    <img src="/icon/ICON/eng.png" alt="English" title="English">
                                 </a>
                             </div>
 
@@ -86,12 +86,12 @@ $promo = $result->fetch_assoc();
                 </header>
                 <nav class="nav-links" id="nav-links">
                     <ul>
-                        <li><a href="/HOMESPECTOR/Homepage/index.html" data-translate="nav.home">หน้าหลัก</a>
+                        <li><a href="/Homepage/index.html" data-translate="nav.home">หน้าหลัก</a>
                         </li>
-                        <li><a href="/HOMESPECTOR/Homepage/service.php" data-translate="nav.services">บริการ</a></li>
-                        <li><a href="/HOMESPECTOR/Homepage/promotion.php" data-translate="nav.promotion">สิทธิพิเศษ</a>
+                        <li><a href="/Homepage/service.php" data-translate="nav.services">บริการ</a></li>
+                        <li><a href="/Homepage/promotion.php" data-translate="nav.promotion">สิทธิพิเศษ</a>
                         </li>
-                        <li><a href="/HOMESPECTOR/Homepage/projects_media.html" data-translate="nav.projects">ผลงาน</a>
+                        <li><a href="/Homepage/projects_media.html" data-translate="nav.projects">ผลงาน</a>
                         </li>
 
                         <!-- Dropdown Menu -->
@@ -100,10 +100,10 @@ $promo = $result->fetch_assoc();
                                 เกี่ยวกับเรา <span class="dropdown-icon"><i class="fa-solid fa-caret-down"></i></span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="/HOMESPECTOR/Homepage/ourstory.php"
+                                <li><a href="/Homepage/ourstory.php"
                                         data-translate="nav.ourStory">ประวัติของเรา</a>
                                 </li>
-                                <li><a href="/HOMESPECTOR/Homepage/ourteam.php"
+                                <li><a href="/Homepage/ourteam.php"
                                         data-translate="nav.ourTeam">ทีมงานของเรา</a></li>
                             </ul>
                         </li>
@@ -112,7 +112,7 @@ $promo = $result->fetch_assoc();
                                 บริการเสริม <span class="dropdown-icon"><i class="fa-solid fa-caret-down"></i></span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="/HOMESPECTOR/Homepage/app-inspector.php"
+                                <li><a href="/Homepage/app-inspector.php"
                                         data-translate="nav.app-inspector">ตรวจบ้านเอง</a>
                                 </li>
                                 <li><a href="cal-electric.html" data-translate="nav.cal-electric">คำนวณไฟฟ้า</a>
@@ -121,14 +121,14 @@ $promo = $result->fetch_assoc();
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="/HOMESPECTOR/Homepage/articles.html" data-translate="nav.articles">บทความ</a></li>
-                        <li><a href="/HOMESPECTOR/Homepage/Review-home.html"
+                        <li><a href="/Homepage/articles.html" data-translate="nav.articles">บทความ</a></li>
+                        <li><a href="/Homepage/Review-home.html"
                                 data-translate="nav.reviewHome">รีวิวบ้าน</a></li>
-                        <li><a href="/HOMESPECTOR/Homepage/review_interior.php"
+                        <li><a href="/Homepage/review_interior.php"
                                 data-translate="nav.reviewInterior">บริการตกแต่งภายใน</a></li>
-                        <li><a href="/HOMESPECTOR/Homepage/joinwithus.php" data-translate="nav.joinUs">รวมงานกับเรา</a>
+                        <li><a href="/Homepage/joinwithus.php" data-translate="nav.joinUs">รวมงานกับเรา</a>
                         </li>
-                        <li><a href="/HOMESPECTOR/Homepage/Contactus.php" data-translate="nav.contact">ติดต่อเรา</a>
+                        <li><a href="/Homepage/Contactus.php" data-translate="nav.contact">ติดต่อเรา</a>
                         </li>
                     </ul>
                 </nav>
@@ -141,23 +141,23 @@ $promo = $result->fetch_assoc();
                             <!-- Social Icons -->
                             <div class="social-icons">
                                 <a href="https://www.facebook.com/t.homeinspector/?locale=th_TH">
-                                    <img src="/HOMESPECTOR/icon/ICON/Fb.png" alt="Facebook">
+                                    <img src="/icon/ICON/Fb.png" alt="Facebook">
                                 </a>
                                 <a href="https://www.instagram.com/t.homeinspector/">
-                                    <img src="/HOMESPECTOR/icon/ICON/IG.png" alt="Instagram">
+                                    <img src="/icon/ICON/IG.png" alt="Instagram">
                                 </a>
                                 <a href="https://page.line.me/t.home?openQrModal=true">
-                                    <img src="/HOMESPECTOR/icon/ICON/line.png" alt="Line">
+                                    <img src="/icon/ICON/line.png" alt="Line">
                                 </a>
                                 <a href="tel:082-045-6165">
-                                    <img src="/HOMESPECTOR/icon/ICON/phone.png" alt="Phone">
+                                    <img src="/icon/ICON/phone.png" alt="Phone">
                                 </a>
                             </div>
 
                             <!-- Logo -->
                             <div class="logo">
-                                <a href="/HOMESPECTOR/Homepage/index.html">
-                                    <img src="/HOMESPECTOR/img/s1.png" alt="T. Home Inspector Logo">
+                                <a href="/Homepage/index.html">
+                                    <img src="/img/s1.png" alt="T. Home Inspector Logo">
                                 </a>
                             </div>
 
@@ -166,10 +166,10 @@ $promo = $result->fetch_assoc();
                                 <!-- Language Switcher -->
                                 <div class="language-switcher">
                                     <a href="?lang=th" class="lang-link">
-                                        <img src="/HOMESPECTOR/icon/ICON/thai.png" alt="Thai" title="ภาษาไทย">
+                                        <img src="/icon/ICON/thai.png" alt="Thai" title="ภาษาไทย">
                                     </a>
                                     <a href="?lang=en" class="lang-link">
-                                        <img src="/HOMESPECTOR/icon/ICON/eng.png" alt="English" title="English">
+                                        <img src="/icon/ICON/eng.png" alt="English" title="English">
                                     </a>
                                 </div>
                             </div>
@@ -181,13 +181,13 @@ $promo = $result->fetch_assoc();
                         <div class="menu-section">
                             <h3>Navigation</h3>
                             <ul>
-                                <li><a href="/HOMESPECTOR/Homepage/index.html" data-translate="nav.home">หน้าหลัก</a>
+                                <li><a href="/Homepage/index.html" data-translate="nav.home">หน้าหลัก</a>
                                 </li>
-                                <li><a href="/HOMESPECTOR/Homepage/service.php"
+                                <li><a href="/Homepage/service.php"
                                         data-translate="nav.services">บริการ</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/promotion.php"
+                                <li><a href="/Homepage/promotion.php"
                                         data-translate="nav.promotion">สิทธิพิเศษ</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/projects_media.html"
+                                <li><a href="/Homepage/projects_media.html"
                                         data-translate="nav.projects">ผลงาน</a></li>
 
                                 <!-- Dropdown Menu -->
@@ -197,10 +197,10 @@ $promo = $result->fetch_assoc();
                                                 class="fa-solid fa-caret-down"></i></span>
                                     </a>
                                     <ul class="dropdown-menu1">
-                                        <li><a href="/HOMESPECTOR/Homepage/ourstory.php"
+                                        <li><a href="/Homepage/ourstory.php"
                                                 data-translate="nav.ourStory">ประวัติของเรา</a>
                                         </li>
-                                        <li><a href="/HOMESPECTOR/Homepage/ourteam.php"
+                                        <li><a href="/Homepage/ourteam.php"
                                                 data-translate="nav.ourTeam">ทีมงานของเรา</a></li>
                                     </ul>
                                 </li>
@@ -210,7 +210,7 @@ $promo = $result->fetch_assoc();
                                                 class="fa-solid fa-caret-down"></i></span>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/HOMESPECTOR/Homepage/app-inspector.php"
+                                        <li><a href="/Homepage/app-inspector.php"
                                                 data-translate="nav.app-inspector">ตรวจบ้านเอง</a>
                                         </li>
                                         <li><a href="cal-electric.html" data-translate="nav.cal-electric">คำนวณไฟฟ้า</a>
@@ -219,15 +219,15 @@ $promo = $result->fetch_assoc();
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="/HOMESPECTOR/Homepage/articles.html"
+                                <li><a href="/Homepage/articles.html"
                                         data-translate="nav.articles">บทความ</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/Review-home.html"
+                                <li><a href="/Homepage/Review-home.html"
                                         data-translate="nav.reviewHome">รีวิวบ้าน</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/review_interior.php"
+                                <li><a href="/Homepage/review_interior.php"
                                         data-translate="nav.reviewInterior">บริการตกแต่งภายใน</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/joinwithus.php"
+                                <li><a href="/Homepage/joinwithus.php"
                                         data-translate="nav.joinUs">รวมงานกับเรา</a></li>
-                                <li><a href="/HOMESPECTOR/Homepage/Contactus.php"
+                                <li><a href="/Homepage/Contactus.php"
                                         data-translate="nav.contact">ติดต่อเรา</a></li>
                             </ul>
                         </div>
@@ -249,9 +249,9 @@ $promo = $result->fetch_assoc();
 
                         <!-- Other Sections -->
                         <div class="menu-section">
-                            <h3><a href="/HOMESPECTOR/Homepage/Contactus.php" class="menu-link">Contact</a></h3>
-                            <h3><a href="/HOMESPECTOR/Homepage/projects_media.html" class="menu-link">Projects</a></h3>
-                            <h3><a href="/HOMESPECTOR/Homepage/joinwithus.php" class="menu-link">joinwithus</a></h3>
+                            <h3><a href="/Homepage/Contactus.php" class="menu-link">Contact</a></h3>
+                            <h3><a href="/Homepage/projects_media.html" class="menu-link">Projects</a></h3>
+                            <h3><a href="/Homepage/joinwithus.php" class="menu-link">joinwithus</a></h3>
                         </div>
                     </div>
                 </div>
@@ -273,7 +273,7 @@ $promo = $result->fetch_assoc();
             </div>
             <script>
                 document.addEventListener("DOMContentLoaded", function () {
-                fetch('/HOMESPECTOR/backend/panel/get_line_section.php')
+                fetch('/backend/panel/get_line_section.php')
                     .then(response => response.json())
                     .then(data => {
                     // อัปเดตเบอร์โทร
@@ -297,13 +297,13 @@ $promo = $result->fetch_assoc();
             <!-- <section class="promotion-container">
                 <div class="card-row">
                     <div class="card">
-                        <img src="/HOMESPECTOR/img/promotion3.jpg" alt="Promotion Image 1">
+                        <img src="/img/promotion3.jpg" alt="Promotion Image 1">
                     </div>
                     <div class="card">
-                        <img src="/HOMESPECTOR/img/promotion3.1.jpg" alt="Promotion Image 2">
+                        <img src="/img/promotion3.1.jpg" alt="Promotion Image 2">
                     </div>
                     <div class="card">
-                        <img src="/HOMESPECTOR/img/promotion3.2.jpg" alt="Promotion Image 3">
+                        <img src="/img/promotion3.2.jpg" alt="Promotion Image 3">
                     </div>
                 </div>
 
@@ -318,21 +318,21 @@ $promo = $result->fetch_assoc();
                     <h2>สำหรับลูกค้า ต.ตรวจบ้าน รับเลย!</h2>
                     <div class="service-list">
                         <div class="service-item">
-                            <img src="/HOMESPECTOR/icon/ICON/10-percent.png" alt="Discount 1">
+                            <img src="/icon/ICON/10-percent.png" alt="Discount 1">
                             <div class="service-text">
                                 <h3>ส่วนลดพิเศษ 10%</h3>
                                 <p>สำหรับร้านบุฟเฟ่ต์ BNP Cuisine</p>
                             </div>
                         </div>
                         <div class="service-item">
-                            <img src="/HOMESPECTOR/icon/ICON/offer.png" alt="Discount 2">
+                            <img src="/icon/ICON/offer.png" alt="Discount 2">
                             <div class="service-text">
                                 <h3>แสดงคูปองส่วนลด</h3>
                                 <p>โปรดแสดงคูปองนี้ให้พนักงานหน้าเคาน์เตอร์</p>
                             </div>
                         </div>
                         <div class="service-item">
-                            <img src="/HOMESPECTOR/icon/ICON/easy.png" alt="Discount 3">
+                            <img src="/icon/ICON/easy.png" alt="Discount 3">
                             <div class="service-text">
                                 <h3>ใช้ได้ทันที ไม่มีขั้นต่ำ</h3>
                                 <p>ส่วนลดพิเศษนี้สามารถใช้ได้ทันที ไม่มีขั้นต่ำ <br> *เงื่อนไขเป็นไปตามที่บริษัทกำหนด
@@ -368,12 +368,12 @@ $promo = $result->fetch_assoc();
 
             <section class="promotion">
                 <h2 class="promotion-title">บทแนะนำ</h2>
-                <a href="/HOMESPECTOR/Homepage/promotion.php" class="btn btn-firstall">ดูทั้งหมด</a>
+                <a href="/Homepage/promotion.php" class="btn btn-firstall">ดูทั้งหมด</a>
                 <div class="promotion-grid">
                     <div class="promotion-card">
                         <!-- Wrap both the image and project-info inside the <a> tag -->
-                        <a href="/HOMESPECTOR/Homepage/promo1.php">
-                            <img src="/HOMESPECTOR/img/promotion1.jpg" alt="SETTHASIRI Project">
+                        <a href="/Homepage/promo1.php">
+                            <img src="/img/promotion1.jpg" alt="SETTHASIRI Project">
                             <div class="promotion-info">
                                 <h3>รับสิทธิ์พิเศษ ต.ตกแต่ง ฟรี 3 รายการ</h3>
                                 <div class="promotion-details">
@@ -385,8 +385,8 @@ $promo = $result->fetch_assoc();
                         </a>
                     </div>
                     <div class="promotion-card">
-                        <a href="/HOMESPECTOR/Homepage/promo2.php">
-                            <img src="/HOMESPECTOR/img/promotion2.jpg" alt="SETTHASIRI Project">
+                        <a href="/Homepage/promo2.php">
+                            <img src="/img/promotion2.jpg" alt="SETTHASIRI Project">
                             <div class="promotion-info">
                                 <h3>ตรวจบ้านสบายใจทำบุญบ้านได้ง่ายๆ</h3>
                                 <div class="promotion-details">
@@ -398,8 +398,8 @@ $promo = $result->fetch_assoc();
                         </a>
                     </div>
                     <div class="promotion-card">
-                        <a href="/HOMESPECTOR/Homepage/promo3.php">
-                            <img src="/HOMESPECTOR/img/promotion3.jpg" alt="SETTHASIRI Project">
+                        <a href="/Homepage/promo3.php">
+                            <img src="/img/promotion3.jpg" alt="SETTHASIRI Project">
                             <div class="promotion-info">
                                 <h3>สำหรับลูกค้า ต.ตรวจบ้าบ รับเลย!</h3>
                                 <div class="promotion-details">
@@ -419,18 +419,18 @@ $promo = $result->fetch_assoc();
                     <!-- Left Section: Social Media & Branding -->
                     <div class="footer-left">
                         <!-- <h2>HomeInspector</h2> -->
-                        <img src="/HOMESPECTOR/img/footer_logo.png" alt="HomeInspector Logo" class="footer-logo">
+                        <img src="/img/footer_logo.png" alt="HomeInspector Logo" class="footer-logo">
                         <div class="social-icons">
                             <a href="https://www.facebook.com/t.homeinspector/" target="_blank"><img
-                                    src="/HOMESPECTOR/icon/ICON/Fb.png" alt="Facebook"></a>
+                                    src="/icon/ICON/Fb.png" alt="Facebook"></a>
                             <a href="https://www.instagram.com/t.homeinspector/" target="_blank"><img
-                                    src="/HOMESPECTOR/icon/ICON/IG.png" alt="Instagram"></a>
+                                    src="/icon/ICON/IG.png" alt="Instagram"></a>
                             <a href="https://page.line.me/t.home?openQrModal=true" target="_blank"><img
-                                    src="/HOMESPECTOR/icon/ICON/line.png" alt="Line"></a>
+                                    src="/icon/ICON/line.png" alt="Line"></a>
                             <a href="https://www.tiktok.com/@thomeinspector" target="_blank"><img
-                                    src="/HOMESPECTOR/icon/ICON/Tiktok.png" alt="TikTok"></a>
+                                    src="/icon/ICON/Tiktok.png" alt="TikTok"></a>
                             <a href="https://www.youtube.com/channel/UC1BPUCVPBW4-ml7MrxQWjug" target="_blank"><img
-                                    src="/HOMESPECTOR/icon/ICON/YB.png" alt="YouTube"></a>
+                                    src="/icon/ICON/YB.png" alt="YouTube"></a>
                         </div>
                     </div>
 
@@ -438,8 +438,8 @@ $promo = $result->fetch_assoc();
                     <div class="footer-center">
                         <h2>เกี่ยวกับเรา <span class="toggle-icon">+</span></h2>
                         <ul>
-                            <li><a href="/HOMESPECTOR/Homepage/ourstory.php">ประวัติของเรา</a></li>
-                            <li><a href="/HOMESPECTOR/Homepage/ourteam.php">ทีมงานของเรา</a></li>
+                            <li><a href="/Homepage/ourstory.php">ประวัติของเรา</a></li>
+                            <li><a href="/Homepage/ourteam.php">ทีมงานของเรา</a></li>
                         </ul>
                     </div>
 
@@ -447,13 +447,13 @@ $promo = $result->fetch_assoc();
                     <div class="footer-right">
                         <h2>บริการของเรา <span class="toggle-icon">+</span></h2>
                         <ul>
-                            <li><a href="/HOMESPECTOR/Homepage/Hinspector.html">ต.ตรวจบ้าน</a></li>
-                            <li><a href="/HOMESPECTOR/Homepage/Hinterior.html">ต.ตงแต่ง</a></li>
-                            <li><a href="/HOMESPECTOR/Homepage/Hconstruction.php">ต.เติม</a></li>
-                            <li><a href="/HOMESPECTOR/Homepage/Hbulter.php">H.Bulter</a></li>
-                            <li><a href="/HOMESPECTOR/Homepage/cal-electric.html">ตรวจสอบระบบไฟฟ้า</a></li>
-                            <li><a href="/HOMESPECTOR/Homepage/app-inspector.php">ตรวจบ้านเอง</a></li>
-                            <li><a href="/HOMESPECTOR/Homepage/checklist.html">เทียบสเปกบ้าน</a></li>
+                            <li><a href="/Homepage/Hinspector.html">ต.ตรวจบ้าน</a></li>
+                            <li><a href="/Homepage/Hinterior.html">ต.ตงแต่ง</a></li>
+                            <li><a href="/Homepage/Hconstruction.php">ต.เติม</a></li>
+                            <li><a href="/Homepage/Hbulter.php">H.Bulter</a></li>
+                            <li><a href="/Homepage/cal-electric.html">ตรวจสอบระบบไฟฟ้า</a></li>
+                            <li><a href="/Homepage/app-inspector.php">ตรวจบ้านเอง</a></li>
+                            <li><a href="/Homepage/checklist.html">เทียบสเปกบ้าน</a></li>
                         </ul>
                     </div>
 
@@ -461,10 +461,10 @@ $promo = $result->fetch_assoc();
                     <div class="footer-help">
                         <h2>ช่วยเหลือ <span class="toggle-icon">+</span></h2>
                         <ul>
-                            <li><a href="/HOMESPECTOR/Homepage/index.html#faq">คำถามที่พบบ่อย (FAQ)</a></li>
-                            <li><a href="/HOMESPECTOR/Homepage/joinwithus.php">รวมงานกับเรา</a></li>
-                            <li><a href="/HOMESPECTOR/Homepage/promotion.php">โปรโมชั่น</a></li>
-                            <li><a href="/HOMESPECTOR/Homepage/Contactus.php">ติดต่อเรา</a></li>
+                            <li><a href="/Homepage/index.html#faq">คำถามที่พบบ่อย (FAQ)</a></li>
+                            <li><a href="/Homepage/joinwithus.php">รวมงานกับเรา</a></li>
+                            <li><a href="/Homepage/promotion.php">โปรโมชั่น</a></li>
+                            <li><a href="/Homepage/Contactus.php">ติดต่อเรา</a></li>
                         </ul>
                     </div>
 
@@ -472,8 +472,8 @@ $promo = $result->fetch_assoc();
                     <div class="footer-payment">
                         <h2>ชำระเงินด้วย</h2>
                         <div class="payment-logos">
-                            <img src="/HOMESPECTOR/img/visacard.png" alt="Visa">
-                            <img src="/HOMESPECTOR/img/Mastercard.webp" alt="MasterCard">
+                            <img src="/img/visacard.png" alt="Visa">
+                            <img src="/img/Mastercard.webp" alt="MasterCard">
                         </div>
                     </div>
                 </div>
@@ -488,13 +488,13 @@ $promo = $result->fetch_assoc();
 
 
 
-    <script src="/HOMESPECTOR/JS/Toggle_Navbar.js"></script>
-    <script src="/HOMESPECTOR/JS/dropdown.js"></script>
-    <script src="/HOMESPECTOR/JS/promo_img_zoom.js"></script>
-    <script src="/HOMESPECTOR/JS/carousel.js"></script>
-    <script src="/HOMESPECTOR/JS/carousel2.js"></script>
-    <script src="/HOMESPECTOR/JS/search_ham.js"></script>
-    <script src="/HOMESPECTOR/JS/footer.js"></script>
+    <script src="/JS/Toggle_Navbar.js"></script>
+    <script src="/JS/dropdown.js"></script>
+    <script src="/JS/promo_img_zoom.js"></script>
+    <script src="/JS/carousel.js"></script>
+    <script src="/JS/carousel2.js"></script>
+    <script src="/JS/search_ham.js"></script>
+    <script src="/JS/footer.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
